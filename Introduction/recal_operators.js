@@ -16,7 +16,7 @@ var lastX = 25
 var lasty = 5
 var lastz = 5
 
-console.log((val / 25 * 5 * 5) )
+console.log((val / lastX * lasty * lastz) )
 
 // var condition = false;
 
