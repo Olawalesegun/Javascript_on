@@ -11,3 +11,4 @@ function div(firstVariable, secondVariable){
 
 console.log(div(2, 3))
 console.log(div(4, 2))
+console.log(div(3, 6))
