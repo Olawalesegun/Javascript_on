@@ -4,7 +4,7 @@ function div(firstVariable, secondVariable){
         result = firstVariable/secondVariable;
     }
     else{
-        secondVariable/firstVariable;
+        result = secondVariable/firstVariable;
     }
     return result;
 }
