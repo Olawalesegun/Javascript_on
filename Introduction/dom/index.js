@@ -30,6 +30,20 @@ function addGroceries(table, grocery, price){
 }
 
 let priceTable = document.getElementById("priceTable");
+let form = document.getElementsByTagName("input");
+
+function add(){
+    event.preventDefault();
+    grocery = form[0].value;
+    price = form[1].value;
+    addGroceries(priceTable, grocery, price);
+    clearInput();
+}
+
+function clearInput(){
+    form[0].value = "";
+    form[1].value = "";
+}
 
 addGroceries(priceTable, "Mongo", 300);
 // console.log("First Child:", body.firstChild)
